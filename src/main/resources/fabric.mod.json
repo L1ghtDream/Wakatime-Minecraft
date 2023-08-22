@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "wakatime_mc",
+  "version": "${version}",
+  "name": "Wakatime_MC",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/PokeNinjas/Wakatime_MC"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/wakatime_mc/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.lightdream.wakatime_mc.WakaTime"
+    ],
+    "main": []
+  },
+  "mixins": [
+    "wakatime_mc.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
